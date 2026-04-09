@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'IBM Plex Sans', system-ui, sans-serif; fo
 .form-input:focus { border-color: var(--blue-500); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
 .form-label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--navy-800); margin-bottom: 6px; }
 
-.testimonial-card { background: white; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm); transition: all 250ms ease; }
+.testimonial-card { background: white; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm); transition: all 250ms ease; display: flex; flex-direction: column; }
 .testimonial-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
 
 .badge { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'IBM Plex Sans', system-ui, sans-serif; fo
 .grid-services-bottom { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; max-width: 780px; margin: 1.5rem auto 0; }
 .grid-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
 .grid-pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; align-items: start; }
-.grid-testimonials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.grid-testimonials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; align-items: stretch; }
 .grid-footer { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; }
 .footer-bottom-bar { display: flex; justify-content: space-between; align-items: center; }
 

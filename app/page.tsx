@@ -379,7 +379,7 @@ function TestimonialCard({ quote, name, role, initial }: { quote: string; name: 
   return (
     <div className="testimonial-card">
       <div style={{ color: "var(--blue-500)", fontSize: "1.75rem", marginBottom: "0.75rem", fontFamily: "Georgia, serif", lineHeight: 1 }}>&ldquo;</div>
-      <p style={{ color: "var(--navy-800)", lineHeight: 1.7, fontSize: "0.95rem", marginBottom: "1.5rem" }}>{quote}</p>
+      <p style={{ color: "var(--navy-800)", lineHeight: 1.7, fontSize: "0.95rem", marginBottom: "1.5rem", flexGrow: 1 }}>{quote}</p>
       <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
         <div style={{ width: 40, height: 40, background: "var(--gradient-blue)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontFamily: "Sora, sans-serif", fontWeight: 700, fontSize: "0.9rem", flexShrink: 0 }}>{initial}</div>
         <div>
