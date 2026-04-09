@@ -2,7 +2,6 @@
 
 import { usePathname } from "next/navigation";
 import Header from "./Header";
-import ZempotisChat from "./ZempotisChat";
 
 export default function SiteShell({
   children,
@@ -22,7 +21,6 @@ export default function SiteShell({
       {!isPortal && <Header />}
       <main>{children}</main>
       {!isPortal && footer}
-      {!isPortal && <ZempotisChat />}
     </>
   );
 }
