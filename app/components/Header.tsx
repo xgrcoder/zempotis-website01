@@ -9,7 +9,7 @@ const navLinks = [
   { href: "/price-plans",  label: "Pricing"  },
   { href: "/about",        label: "About"    },
   { href: "/contact",      label: "Contact"  },
-  { href: "/portal/login", label: "Login"    },
+  { href: "/portal",       label: "Login"    },
 ];
 
 export default function Header() {
