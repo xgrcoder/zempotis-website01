@@ -1,0 +1,41 @@
+{
+  "id": "healvana",
+  "name": "Healvana",
+  "url": "https://www.healvana.co.uk",
+  "scrapedAt": "2026-03-19T05:20:48.998Z",
+  "botName": "AI Assistant",
+  "primaryColor": "#c9a84c",
+  "accentColor": "#e7bc42",
+  "textColor": "#ffffff",
+  "bgColor": "#0f172a",
+  "greeting": "Hi there! 👋 I'm the AI assistant for Healvana. How can I help you today?",
+  "quickReplies": [
+    {
+      "label": "What do you offer?",
+      "value": "What services do you offer?"
+    },
+    {
+      "label": "How much does it cost?",
+      "value": "What are your prices?"
+    },
+    {
+      "label": "Book a call",
+      "value": "I'd like to book a consultation"
+    },
+    {
+      "label": "Get in touch",
+      "value": "How can I contact you?"
+    }
+  ],
+  "content": "=== Healvana — Natural Skin & Hair Care ===\nNature's Finest.BeautifullyRefined.\nCrafted by Nature,Perfected by Science\nThe HealvanaDifference\nReal Results,Real People\nUnlock YourWellness Journey\nBotanical Radiance Serum\nRosehip & Argan Face Oil\nScalp Revival Hair Mask\nPure Botanical Ingredients\nDiscover our collection of premium natural skin and hair care products. Crafted from pure botanical ingredients for your most radiant self.\nEvery product is formulated with the purest botanical extracts, free from toxins, parabens, and artificial fragrances.\nSkin Care · Best Seller\nSkin Care · Nourishing\nHair Care · Intensive\nSkin Care · Anti-Ageing\nWe believe beauty should never compromise your health or the planet. Every Healvana product is a carefully crafted ritual — from wild-harvested ingredients to zero-waste packaging.\nSourced from certified organic farms and sustainable wild harvests.\nNo parabens, sulphates, artificial fragrances or harmful chemicals.\nBiodegradable packaging and a commitment to carbon neutrality.\n\"My skin has never felt this soft and hydrated. The Botanical Serum is absolutely incredible — I saw results within days.\"\n\"Finally a natural brand that actually works. The hair mask transformed my dry, damaged hair. I won't use anything else now.\"\n\"I love that I can read every ingredient and know exactly what I'm putting on my skin. Pure, effective, and beautifully packaged.\"\nSubscribe for 15% off your first order, exclusive recipes, and holistic beauty rituals delivered to your inbox.\n\n=== Healvana — Natural Skin & Hair Care ===\nNature's Finest.BeautifullyRefined.\nCrafted by Nature,Perfected by Science\nThe HealvanaDifference\nReal Results,Real People\nUnlock YourWellness Journey\nBotanical Radiance Serum\nRosehip & Argan Face Oil\nScalp Revival Hair Mask\nPure Botanical Ingredients\nDiscover our collection of premium natural skin and hair care products. Crafted from pure botanical ingredients for your most radiant self.\nEvery product is formulated with the purest botanical extracts, free from toxins, parabens, and artificial fragrances.\nSkin Care · Best Seller\nSkin Care · Nourishing\nHair Care · Intensive\nSkin Care · Anti-Ageing\nWe believe beauty should never compromise your health or the planet. Every Healvana product is a carefully crafted ritual — from wild-harvested ingredients to zero-waste packaging.\nSourced from certified organic farms and sustainable wild harvests.\nNo parabens, sulphates, artificial fragrances or harmful chemicals.\nBiodegradable packaging and a commitment to carbon neutrality.\n\"My skin has never felt this soft and hydrated. The Botanical Serum is absolutely incredible — I saw results within days.\"\n\"Finally a natural brand that actually works. The hair mask transformed my dry, damaged hair. I won't use anything else now.\"\n\"I love that I can read every ingredient and know exactly what I'm putting on my skin. Pure, effective, and beautifully packaged.\"\nSubscribe for 15% off your first order, exclusive recipes, and holistic beauty rituals delivered to your inbox.",
+  "pages": [
+    {
+      "url": "https://www.healvana.co.uk",
+      "title": "Healvana — Natural Skin & Hair Care"
+    },
+    {
+      "url": "https://www.healvana.co.uk/",
+      "title": "Healvana — Natural Skin & Hair Care"
+    }
+  ]
+}

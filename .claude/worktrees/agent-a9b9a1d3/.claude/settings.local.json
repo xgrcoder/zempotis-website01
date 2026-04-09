@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m 'fix: replace invalid '\\\\''align'\\\\'' CSS property with '\\\\''alignItems'\\\\'' in client detail page:*)",
+      "Bash(git pull:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git commit -m 'fix: replace nested button in CollapsibleSection with div[role=button]:*)",
+      "WebFetch(domain:rajtandoori.com)",
+      "Bash(npx create-next-app@latest . --typescript --no-tailwind --app --no-src-dir --import-alias=\"@/*\" --use-npm --yes)",
+      "Bash(npx next:*)"
+    ]
+  }
+}

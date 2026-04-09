@@ -1,0 +1,41 @@
+{
+  "id": "ebs-barbers",
+  "name": "EBS Barbers",
+  "url": "https://www.ebsbarbers.com",
+  "scrapedAt": "2026-03-19T04:51:41.368Z",
+  "botName": "AI Assistant",
+  "primaryColor": "#e1a730",
+  "accentColor": "#ffbb26",
+  "textColor": "#ffffff",
+  "bgColor": "#0f172a",
+  "greeting": "Hi there! 👋 I'm the AI assistant for EBS Barbers. How can I help you today?",
+  "quickReplies": [
+    {
+      "label": "What do you offer?",
+      "value": "What services do you offer?"
+    },
+    {
+      "label": "How much does it cost?",
+      "value": "What are your prices?"
+    },
+    {
+      "label": "Book a call",
+      "value": "I'd like to book a consultation"
+    },
+    {
+      "label": "Get in touch",
+      "value": "How can I contact you?"
+    }
+  ],
+  "content": "=== EBS Barbers ===\nClean fades · Sharp beards · Quality cuts\nTap a photo to expand\n6 Wrotham RdBorough GreenSevenoaksTN15 8DB\nSaturday8:30am – 5:30pm\n\n=== EBS Barbers ===\nClean fades · Sharp beards · Quality cuts\nTap a photo to expand\n6 Wrotham RdBorough GreenSevenoaksTN15 8DB\nSaturday8:30am – 5:30pm",
+  "pages": [
+    {
+      "url": "https://www.ebsbarbers.com",
+      "title": "EBS Barbers"
+    },
+    {
+      "url": "https://www.ebsbarbers.com/",
+      "title": "EBS Barbers"
+    }
+  ]
+}
