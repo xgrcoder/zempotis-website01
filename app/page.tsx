@@ -172,7 +172,7 @@ export default function HomePage() {
               className="animate-fade-up animate-delay-2"
               style={{ fontSize: "1.1rem", color: "var(--slate-600)", maxWidth: "580px", margin: "0 auto 2.5rem", lineHeight: 1.75 }}
             >
-              We build websites, AI chatbots, call handlers, and custom software for UK businesses — so your team spends less time on admin and more time on growth.
+              We build websites, AI chatbots, call handlers, and custom software for UK businesses
             </p>
 
             <div className="animate-fade-up animate-delay-3 hero-cta" style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
