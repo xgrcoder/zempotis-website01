@@ -138,6 +138,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteShell footer={footer}>
           {children}
         </SiteShell>
+        <script
+          src="https://chatbot-product-flax.vercel.app/widget.js"
+          data-client="zempotis"
+          async
+        />
       </body>
     </html>
   );
