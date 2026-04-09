@@ -164,7 +164,7 @@ export default function HomePage() {
               }}
             >
               Build a business that runs{" "}
-              <span className="text-gradient" style={{ paddingRight: "6px", marginRight: "-6px" }}>smarter</span>
+              <span style={{ color: "#2563eb" }}>smarter</span>
               , not harder
             </h1>
 
