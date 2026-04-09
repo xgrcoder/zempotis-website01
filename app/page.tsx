@@ -66,9 +66,9 @@ const howItWorks = [
 ];
 
 const testimonials = [
-  { quote: "Since deploying the Zempotis chatbot, our enquiry response time dropped from hours to seconds. Our team is finally free to focus on delivery, not inboxes.", name: "Sarah T.",  role: "Operations Director, RetailFlow",    initial: "S" },
-  { quote: "The AI call handler alone saved us two full days per week. It handles routine calls perfectly and only escalates what genuinely needs our attention.",         name: "Marcus D.", role: "Founder, BuildRight Contractors",     initial: "M" },
-  { quote: "The website and support system Zempotis built gave us a professional edge we didn't have before. Clients comment on it constantly.",                           name: "Priya L.",  role: "CEO, Luminate Consulting",            initial: "P" },
+  { quote: "Your website stops losing enquiries the moment we add an AI chatbot. Instant responses, 24/7 — no staff required.",                                              name: "Chatbot Automation",  role: "Live on your site in under an hour",  initial: "AI" },
+  { quote: "Imagine every inbound call handled, logged and escalated — automatically. Your team only picks up what actually needs them.",                                    name: "AI Call Handling",    role: "Routine calls, fully automated",     initial: "CA" },
+  { quote: "A custom CRM, client portal and dashboard — built for how your business actually works. Not a template. Not a compromise.",                                     name: "Custom Software",     role: "Built around your operation",        initial: "CS" },
 ];
 
 const pricingTiers = [
@@ -282,8 +282,8 @@ export default function HomePage() {
         <section className="section" style={{ background: "var(--off-white)" }}>
           <div className="container">
             <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-              <div className="section-label">Client Stories</div>
-              <h2 style={{ fontSize: "clamp(1.75rem,4vw,2.5rem)" }}>What our clients say</h2>
+              <div className="section-label">Real Results</div>
+              <h2 style={{ fontSize: "clamp(1.75rem,4vw,2.5rem)" }}>The Future Is Here</h2>
             </div>
             <div className="grid-testimonials">
               {testimonials.map((t) => <TestimonialCard key={t.name} {...t} />)}
