@@ -175,4 +175,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'IBM Plex Sans', system-ui, sans-serif; fo
   .grid-stats { gap: 1rem; }
   .pricing-card { padding: 1.75rem; }
   .section-sm { padding: 2.5rem 0; }
+  /* BUG 1 — glow orb overflow */
+  .glow-orb-1 { width: 200px; height: 200px; }
+  .glow-orb-2 { width: 160px; height: 160px; }
+  /* BUG 4 — page-hero padding */
+  .page-hero { padding: 3.5rem 0 3rem; }
+  /* BUG 5 — btn-lg mobile size */
+  .btn-lg { padding: 13px 22px; font-size: 0.9rem; }
 }

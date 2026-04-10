@@ -196,7 +196,7 @@ export default function PricingPage() {
         <div className="container" style={{ padding: "0 1.5rem" }}>
           <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
             <div className="section-label">Compare</div>
-            <h2 style={{ fontSize: "2.25rem" }}>Plan comparison</h2>
+            <h2 style={{ fontSize: "clamp(1.6rem, 4vw, 2.25rem)" }}>Plan comparison</h2>
           </div>
 
           <div className="compare-wrap" style={{ overflowX: "auto" }}>
@@ -235,7 +235,7 @@ export default function PricingPage() {
         <div className="container" style={{ padding: "0 1.5rem" }}>
           <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
             <div className="section-label">Add-ons</div>
-            <h2 style={{ fontSize: "2.25rem" }}>Optional extras</h2>
+            <h2 style={{ fontSize: "clamp(1.6rem, 4vw, 2.25rem)" }}>Optional extras</h2>
           </div>
 
           <div className="addons-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem" }}>
@@ -253,9 +253,9 @@ export default function PricingPage() {
       </section>
 
       {/* ══ CTA ══ */}
-      <section style={{ padding: "5rem 0", background: "var(--gradient-dark)" }}>
+      <section className="pt-10 pb-10 md:pt-20 md:pb-20" style={{ background: "var(--gradient-dark)" }}>
         <div className="container" style={{ padding: "0 1.5rem", textAlign: "center" }}>
-          <h2 style={{ fontSize: "2.5rem", color: "white", marginBottom: "1rem" }}>
+          <h2 style={{ fontSize: "clamp(1.75rem, 4vw, 2.5rem)", color: "white", marginBottom: "1rem" }}>
             Not sure which plan is right?
           </h2>
           <p style={{ color: "#94a3b8", fontSize: "1.05rem", maxWidth: "480px", margin: "0 auto 2rem" }}>

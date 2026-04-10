@@ -64,7 +64,7 @@ export default function ContactPage() {
 
       <section className="section">
         <div className="container" style={{ padding: "0 1.5rem" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.6fr", gap: "5rem", alignItems: "start" }}>
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.6fr]" style={{ display: "grid", gap: "5rem", alignItems: "start" }}>
 
             <div>
               <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem" }}>Get in touch</h2>
