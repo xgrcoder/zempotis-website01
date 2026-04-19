@@ -97,9 +97,10 @@ const footer = (
           <h4 style={{ fontFamily: "Sora, sans-serif", fontWeight: 600, fontSize: "0.9rem", marginBottom: "1.25rem", color: "white" }}>Legal</h4>
           <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {[
-              { href: "/privacy", label: "Privacy Policy"     },
-              { href: "/terms",   label: "Terms & Conditions" },
-              { href: "/cookies", label: "Cookie Policy"      },
+              { href: "/legal/privacy",    label: "Privacy Policy"     },
+              { href: "/legal/terms",      label: "Terms & Conditions" },
+              { href: "/legal/cookies",    label: "Cookie Policy"      },
+              { href: "/legal/compliance", label: "Compliance"         },
             ].map(({ href, label }) => (
               <li key={href}>
                 <a href={href} style={{ color: "#94a3b8", textDecoration: "none", fontSize: "0.875rem" }}>{label}</a>
