@@ -25,7 +25,7 @@ export default function LegalSubNav() {
         className="legal-subnav container"
         style={{ padding: "0 1.5rem", overflowX: "auto" }}
       >
-        <nav aria-label="Legal sub-navigation" style={{ display: "flex" }}>
+        <nav aria-label="Legal sub-navigation" style={{ display: "flex", justifyContent: "center" }}>
           {legalLinks.map(({ href, label }) => {
             const isActive = pathname === href;
             return (
